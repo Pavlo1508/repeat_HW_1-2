@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  line-height: 1.11111;
+}
+
+h3 {
+  line-height: 1.2;
+}
+
+p,
+a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ====================== */
+
+.header {
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+}
+
+.logo-part {
+  color: #4d5ae5;
+}
+
+/* ====================== */
+
+.nav a {
+  color: currentColor;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav a:hover {
+	color: #404BBF;
+}
+
+.address a {
+  font-size: 16px;
+}
+
+.address a:hover, .address a:focus {
+	color: #404BBF;
+}
+
+/* ========================== */
+.banner {
+  background-color: #2e2f42;
+}
+
+.banner h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background-color: #404bbf;
+}
+
+/* ============================= */
+
+.strategy h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* =============================== */
+
+.our_team {
+  background-color: #f4f4fd;
+}
+
+.desc {
+	text-align: center;
+}
+
+/* =============================== */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo,
+.footer-text {
+  color: #f4f4fd;
+}
